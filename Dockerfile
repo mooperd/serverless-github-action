@@ -1,4 +1,4 @@
-FROM python3.8-nodejs13
+FROM nikolaik/python3.8-nodejs10
 
 
 LABEL version="1.0.0"
