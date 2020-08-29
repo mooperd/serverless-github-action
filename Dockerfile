@@ -12,5 +12,5 @@ LABEL "com.github.actions.icon"="zap"
 LABEL "com.github.actions.color"="red"
 
 RUN npm i -g serverless@1.80.0
-RUN npm i -g serverless-python-requirements
+RUN npm i -g serverless-deployment-bucket serverless-python-requirements
 ENTRYPOINT ["serverless"]
